@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+  
+::-webkit-scrollbar {
+    background-color: #0b0b0b;
+    width: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #1A1D26;
+    border-radius: 9em;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #2a2e3a;
+}
+
+body{
+    background: url(./Rectangle\ 59.svg), rgb(70, 17, 17) 0% 0% / 50px 50px repeat;
+}
+
+.create{
+    width: 100vw;
+    height: 600px;
+    background: url(./Subtract.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 2000px;
+    margin-bottom: 1000px;
+    opacity: 0.7;
+}
+
+.container{
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.create__container{
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.svg{
+    width: 558px;
+    height: 480px;
+    background: url(./Group\ 11770.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: -70px;
+}
